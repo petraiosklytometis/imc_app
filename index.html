@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Model</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <h1>IMC</h1>
+      <form action="" id="form">
+        <label for="weight">Peso (quilogramas)</label>
+        <input type="number" min="0.01" max="500" step="any" id="weight" />
+
+        <label for="height">Altura (metros)</label>
+        <input type="number" min="0.01" max="2.5" step="any" id="height" />
+
+        <button type="submit">Enviar</button>
+      </form>
+      <div id="result"></div>
+    </section>
+
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
