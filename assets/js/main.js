@@ -11,7 +11,7 @@ form.addEventListener("submit", function (e) {
 
   const imc = getImc(weightValue, heightValue);
   const imcLevel = getImcLevel(imc);
-  const msg = `Seu IMC é ${imc} ${imcLevel}`;
+  const msg = `Seu IMC é ${imc} - ${imcLevel}`;
 
   setResult(msg, true);
 });
